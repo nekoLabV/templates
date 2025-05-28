@@ -1,0 +1,18 @@
+{
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/vite:dev-server",
+      "options": {
+        "buildTarget": "@templates/vue1:build",
+        "port": 4200
+      }
+    },
+    "build": {
+      "executor": "@nx/vite:build",
+      "options": {
+        "outputPath": "dist/apps/vue1"
+      }
+    }
+  }
+}
