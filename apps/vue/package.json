@@ -1,6 +1,6 @@
 {
-  "name": "mc-monald-qa",
-  "version": "0.0.0",
+  "name": "vue-template",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
   "scripts": {

@@ -29,7 +29,13 @@ export default defineConfig({
       }
     }
   },
-  plugins: [vue(), svgLoader(), cssInjectedByJsPlugin(), notBuildModule(), unoCSS()],
+  plugins: [
+    vue(), 
+    svgLoader(), 
+    cssInjectedByJsPlugin(), 
+    // notBuildModule(), 
+    unoCSS()
+  ],
   resolve: {
     alias: {
       '~': path.resolve(__dirname, './'),
